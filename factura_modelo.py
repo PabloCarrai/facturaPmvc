@@ -1,6 +1,6 @@
 import sqlite3
 
-class Factura:
+class gestorDb:
     def __init__(self):
         self.conexion=sqlite3.connect("factura.db")
         self.cursor=self.conexion.cursor()
